@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-3.3.1.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+    	body {
+        	background-color: black;
+        	background-image: url("images/toronto-background.jpg");
+        	background-size: cover;
+        	margin: 0;
+      		-webkit-transition: background-image 0.2s ease-in-out;
+			transition: background-image 0.2s ease-in-out;
+      	}
+      	.circle {
+      		border-radius: 50%;
+      	}
+    	.joel-image {
+	    	width: 200px;
+    		height: 200px;
+    		background-image: url("images/joel.jpg");
+	        background-size: cover;
+    		margin-left: auto;
+	    	margin-right: auto;
+    		margin-top: 100px;
+    		margin-bottom: 50px;
+		}
+		.with-border {
+			border: 2px solid #ffffff;
+		}
+		.main-container {
+			margin-left: auto;
+			margin-right: auto;
+			display: inline;
+		}
+		.left-navbar {
+			background-color: #595959;
+			height: 100vh;
+			display: inline;
+			border-right: 2px solid #ffffff;
+		}
+		.intro {
+			font-family: Helvetica, cursive;
+			text-align: center;
+		}
+		.header {
+			font-size: 24px;
+			color: #ffffff;
+			margin-top: 12px;
+			margin-bottom: 8px;
+		}
+		.occupation {
+			font-size: 20px;
+			color: #ffffff;
+		}
+		.navbar-div {
+			height: 33%;
+			color: #ffffff;
+			text-align: center;
+		}
+		.navbar-icon {
+			font-size: 32px;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.not-bottom-most {
+			border-bottom-style: double;
+		}
+		.navbar-div:hover {
+				background-color: #d9d9d9;
+				color: black;
+				cursor: pointer;
+		}
+		#blurb {
+			margin-top: 36px;
+			padding-left: 240px;
+			padding-right: 240px;
+		}
+  	</style>
+  </head>
+  <body>
+  		<div class='left-navbar col-xs-1 col-sm-1 col-md-1 col-lg-1'>
+  			<a title='GitHub' href='https://github.com/joelparikh'>
+  				<div class='navbar-div not-bottom-most'>
+  					<span class='glyphicon glyphicon-hdd navbar-icon'></span>
+  				</div>
+  			</a>
+  			<a title='LinkedIn' href='https://www.linkedin.com/in/joelparikh/'>
+  				<div class='navbar-div not-bottom-most'>
+  					<span class='glyphicon glyphicon-briefcase navbar-icon'></span>
+  				</div>
+  			</a>
+  			<a title='resume' href='./files/joel-parikh-resume.pdf'>
+  				<div class='navbar-div'>
+  					<span class='glyphicon glyphicon-file navbar-icon'></span>
+  				</div>
+  			</a>
+  		</div>
+  		<div id='home-container' class='main-container col-xs-11 col-sm-11 col-md-11 col-lg-11'>
+  			<div class='row'>
+  				<div id='headline' class='intro header'>
+  					Aspiring Software Developer
+  				</div>
+  				<div id='blurb' class='intro occupation'>
+  					Computer Engineering Student at University of Waterloo
+  				</div>
+  			</div>
+  			<div class='joel-image with-border circle'></div>
+  		</div>
+  	</body>
+</html>
