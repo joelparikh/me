@@ -5,6 +5,8 @@ body {
 	margin: 0;
 	-webkit-transition: background-image 0.2s ease-in-out;
 	transition: background-image 0.2s ease-in-out;
+    	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
 }
 .circle {
 	border-radius: 50%;
@@ -34,7 +36,6 @@ body {
 	border-right: 2px solid #ffffff;
 }
 .intro {
-	font-family: Helvetica, cursive;
 	text-align: center;
 }
 .header {
